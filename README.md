@@ -34,5 +34,11 @@ Before using the dynamixels, you have to connect board that you use and dynamixe
 
 And give them different ID. We used DynamixelWizard2.0 to change the ID. Default was 1, so you have to change one dynamixel ID to 2. In our case, we used pan ID : 2, tilt ID : 1. If it's different, then you can change the ID value in the code(in pid_dynamixel.py, PAN_ID = 2, TILT_ID = 1). 
 
+## Face Detection
+
+We used other's trained model deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel. 
+
+- [Face Detection](https://github.com/mostofashakib/Image-Analysis-and-Real-Time-Face-Recognition-system)
+
 And that's all! Enjoy!! 
 
